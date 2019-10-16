@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drumkit JS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="keys">
+        <div class="key" data-key="81">
+            <kbd>Q</kbd>
+            <span class="sound">Crash</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="sound">Opened</span>
+        </div>
+        <div class="key" data-key="68">
+            <kbd>D</kbd>
+            <span class="sound">Hi-hat</span>
+        </div>
+        <div class="key" data-key="70">
+            <kbd>F</kbd>
+            <span class="sound">Bass</span>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <span class="sound">Ride</span>
+        </div>
+        <div class="key" data-key="72">
+            <kbd>H</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div class="key" data-key="74">
+            <kbd>J</kbd>
+            <span class="sound">Tom 1</span>
+        </div>
+        <div class="key" data-key="75">
+            <kbd>K</kbd>
+            <span class="sound">Tom 2</span>
+        </div>
+        <div class="key" data-key="76">
+            <kbd>L</kbd>
+            <span class="sound">Tom 3</span>
+        </div>
+        <div class="key" data-key="77">
+            <kbd>M</kbd>
+            <span class="sound">Tom 4</span>
+        </div>
+    </div>
+
+
+    <audio src="assets/music/crash.wav" data-key="81"></audio>
+    <audio src="assets/music/open-hi-hat.wav" data-key="83"></audio>
+    <audio src="assets/music/closed-hi-hat.mp3" data-key="68"></audio>
+    <audio src="assets/music/bass-drum.wav" data-key="70"></audio>
+    <audio src="assets/music/ride.wav" data-key="71"></audio>
+    <audio src="assets/music/snare.mp3" data-key="72"></audio>
+    <audio src="assets/music/tom0.wav" data-key="74"></audio>
+    <audio src="assets/music/tom1.wav" data-key="75"></audio>
+    <audio src="assets/music/tom2.wav" data-key="76"></audio>
+    <audio src="assets/music/tom3.wav" data-key="77"></audio>
+    
+    <script src="assets/js/drum.js"></script>
+</body>
+</html>
